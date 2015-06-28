@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#92747474"
+    android:orientation="horizontal"
+    >
+
+    <RelativeLayout
+        android:background="#ff222222"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/abc_ratingbar_full_material" />
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvName"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_toEndOf="@+id/imageView3"
+            android:padding="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tvPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvPosition"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvName"
+            android:layout_toEndOf="@+id/tvName"
+            android:padding="10dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
